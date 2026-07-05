@@ -1,0 +1,14 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# deploy connection / secrets (authoritative but never committed)
+servers.json
+.env
+.env.*
+*_config.json
+credentials.*
+*.pem
+HANDOFF.md
